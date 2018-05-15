@@ -121,10 +121,23 @@ exports["Can compute letter grade of borderline D"] = function(test) {
 	test.done();
 }
 
+exports["Can compute letter grade of E"] = function(test) {
+	var expected = 'E';
+	
+	testBook.addGrade(59);
+	testBook.addGrade(50);
+	
+	var actual = testBook.getLetterGrade();
+	
+	test.equal(expected, actual);
+	
+	test.done();
+}
+
 exports["Can compute letter grade of F"] = function(test) {
 	var expected = 'F';
 	
-	testBook.addGrade(61);
+	testBook.addGrade(51);
 	testBook.addGrade(45);
 	
 	var actual = testBook.getLetterGrade();

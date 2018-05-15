@@ -33,6 +33,8 @@ var gradeBook = {
 			return 'C';
 		else if (averageGradeScore >= 60)
 			return 'D';
+		else if (averageGradeScore >= 50)
+			return 'E';
 		else
 			return 'F';
 	},
