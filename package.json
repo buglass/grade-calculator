@@ -1,0 +1,22 @@
+{
+  "name": "grade-calculator",
+  "version": "0.1.0",
+  "description": "Test of a simple calculator which can be installed as a package",
+  "main": "grades.js",
+  "scripts": {
+    "test": "nodeunit tests"
+  },
+  "author": "Adam Buglass",
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buglass/grade-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buglass/grade-calculator/issues"
+  },
+  "homepage": "https://github.com/buglass/grade-calculator#readme"
+}
